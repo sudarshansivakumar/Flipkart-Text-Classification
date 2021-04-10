@@ -9,6 +9,12 @@ Repository for submitting the task required for the selection process for a summ
 * Python 3 
 * NLTK 
 
+There are two models that we train in this (both are CNN based text classification models but the difference is in the datasets used). 
+For the first model, which in the notebook is reffered to as CNNmodel() the datasets are present in the 'Model 1' folder under the names 'flipkart_dataset_train.csv', 'flipkart_dataset_valid.csv', and 'flipkart_dataset_test.csv'. The process of how the dataset has been created from the original dataset which was given has been detailed in the notebook. 
+For the second model which in the notebook is referred to as CNNmodel2() the datasets are present in the 'Model 2' folder under the names 'train_final.csv','valid_final.csv', and 'test_final.csv'. Again the process of how we form these datasets from the datasets used for Model 1 is described in the notebook. 
+In order to reproduce the results the models can be trained using the datasets present in these folders
+
+
 The approach followed for the problem overall is as follows :
 
   * First the primary category of each product description is extracted. This is done by applying regex commands on the dataframe column 'product_category_tree'. If a given product belongs to multiple categories, that too is extracted and the dataframe is modified in such a way that for every row in the dataframe we have one primary category that the description of the row belongs to. If a given product belongs to two categories, it would occupy two rows
