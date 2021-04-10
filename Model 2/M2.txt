@@ -1,0 +1,1 @@
+This folder contains the train,test, and validation datasets for the second model that we train ( Referred in the notebook as CNNModel2) 
