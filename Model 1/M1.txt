@@ -1,0 +1,1 @@
+This folder Contains the the train,test, and validation datasets for the first model that we train ( In the colab notebook, this is referred to as CNNmodel()) 
