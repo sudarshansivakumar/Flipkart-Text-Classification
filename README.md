@@ -24,3 +24,8 @@ The approach followed for the problem overall is as follows :
   * In order to classify the descriptions we use a CNN architecture - convolutions over the product descriptions are done using filters of sizes 2,3,4,5, and 6, and the convolutional layer is followed by a fully connected layer to give us the final class predictions 
   * After training the first model, we look at the F1 scores of categories, and justify why certain categories can be removed. So a new dataset is saved, from which these categories have been removed
   * The second and final model is trained on this dataset, with reasonably accurate predictions on the test set 
+
+Some of the tutorials/resources that helped me complete the task:
+* [Github Repo on Sentiment Analysis with PyTorch](https://github.com/bentrevett/pytorch-sentiment-analysis)
+* [Kaggle Notebook on Text Preprocessing](https://www.kaggle.com/sudalairajkumar/getting-started-with-text-preprocessing)
+* [PyTorch Tutorials](https://pytorch.org/tutorials/)
