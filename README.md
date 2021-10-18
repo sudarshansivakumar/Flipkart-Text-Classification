@@ -1,4 +1,4 @@
-# MIDAS-IIITD-Flipkart
+# Flipkart Text Classification
 
 The given dataset has been scraped from the Flipkart Website, and consists of product descriptions and categories. The goal is to build a model which classifies a given  description into a particular category. For instance, some of the categories that are present in the dataset include Clothing, Jewellery, etc.
 
